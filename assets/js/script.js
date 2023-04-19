@@ -134,20 +134,6 @@ for (let i = 0; i < formInputs.length; i++) {
   });
 }
 
-function sendEmail(){
-
-  Email.send({
-    Host : "smtp.gmail.com",
-    Username : "chavanpritesh.portfolio@gmail.com",
-    Password : "LearningPurposeOnly",
-    To : 'priteshchavan99@gmail.com',
-    From : document.getElementById("email").value,
-    Subject : "New Contact Form Enquiry",
-    Body : "And this is the body"
-}).then(
-  message => alert(message)
-);
-}
 
 
 
